@@ -1,0 +1,21 @@
+# Learning notes: research workflow and evidence quality
+
+## Decompose the question
+
+A broad research question is easier to investigate when split into sub-questions about definitions, mechanisms, current approaches, trade-offs, and evidence gaps.
+
+## Record evidence
+
+For each finding, keep the source name and the relevant passage. A source filename is a useful traceability hint, but it is not equivalent to a complete bibliographic citation. For formal work, record author, title, publication, date, DOI or URL, and page or section when available.
+
+## Evaluate evidence
+
+Check whether a passage directly supports the claim, whether it is current enough for the topic, whether the source is authoritative, and whether the claim needs corroboration. Separate source-supported facts from interpretation and assumptions.
+
+## Report uncertainty
+
+If the supplied documents do not support a conclusion, say so. Do not treat a missing search result as proof that something does not exist. List what additional evidence would be needed.
+
+## Limitations of keyword retrieval
+
+Keyword retrieval can miss relevant passages that use synonyms or different terminology. It can also return passages that share words but do not answer the question. For high-quality research, inspect the original sources and consider semantic retrieval and systematic source selection.

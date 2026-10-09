@@ -1,0 +1,29 @@
+# Learning notes: EV battery thermal management
+
+These starter notes are for demonstrating the ResearchPilot workflow. They are not a substitute for manufacturer documentation, peer-reviewed literature, or safety standards.
+
+## Why thermal management matters
+
+Lithium-ion battery performance and ageing are affected by temperature. A battery pack's thermal-management system aims to keep cells within a suitable operating range and reduce temperature differences between cells. The acceptable range depends on the cell chemistry and manufacturer specifications.
+
+## Common approaches
+
+Air cooling uses moving air to remove heat. It can be comparatively simple, but its heat-transfer capability is often lower than liquid-based approaches, and temperature uniformity can be challenging at high heat loads.
+
+Liquid cooling circulates a coolant through cold plates or channels near cells or modules. It can transfer heat more effectively in many high-load applications, but adds components such as pumps, plumbing, seals, and a heat exchanger.
+
+Refrigerant-based or chiller-assisted systems can couple battery cooling to a vehicle's air-conditioning loop. The system design must account for energy use, control complexity, and operating conditions.
+
+Phase-change materials can absorb heat during a phase transition. They may help buffer short heat loads, but heat must eventually be rejected and packaging constraints matter.
+
+## Design trade-offs
+
+Thermal design involves balancing cooling performance, temperature uniformity, mass, cost, packaging, pressure drop, parasitic power, serviceability, and reliability. A solution that performs well in one driving or ambient condition may not be optimal in another.
+
+## Monitoring and control
+
+Battery-management systems may monitor cell voltages and temperatures and use those measurements to estimate state of charge and state of health. The control system can limit charging or power when required by temperature or other safety constraints. Actual implementations vary by vehicle and manufacturer.
+
+## Evidence gaps
+
+These notes do not provide comparative numerical performance, exact operating-temperature limits, or validated test data. Those details should be sourced from specific battery-cell datasheets, vehicle service documentation, standards, or peer-reviewed research.
