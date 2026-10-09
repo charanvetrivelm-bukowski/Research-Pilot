@@ -35,13 +35,7 @@ pip install -r requirements.txt
 streamlit run app.py
 ```
 
-<<<<<<< HEAD
-If `py` is not recognized, try `python` instead. Your browser should open the local app. Enter your API key in the sidebar, enter a research question, and click **Plan and generate report**.
-=======
-If `py` is not recognized, try `python` instead. Your browser should open the local app. Paste your Gemini API key in the sidebar, enter a research question, and click **Plan and generate report**.
->>>>>>> cfdf22701627b4e8c3b1471d33990af2c946af8a
 
-## Run on macOS/Linux
 
 ```bash
 python3 -m venv .venv
