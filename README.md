@@ -14,7 +14,11 @@ ResearchPilot is a small local web application that takes a research question, a
 ## Requirements
 
 - Python 3.10 or newer (Python 3.11 is a sensible choice)
+<<<<<<< HEAD
 - An OpenAI API key and internet access for model calls
+=======
+- A free Gemini API key (create one at https://aistudio.google.com/apikey) and internet access for model calls
+>>>>>>> cfdf22701627b4e8c3b1471d33990af2c946af8a
 - Windows, macOS, or Linux
 
 The application runs locally, but the question and retrieved excerpts are sent to the selected model API. Do not upload confidential material.
@@ -31,7 +35,11 @@ pip install -r requirements.txt
 streamlit run app.py
 ```
 
+<<<<<<< HEAD
 If `py` is not recognized, try `python` instead. Your browser should open the local app. Enter your API key in the sidebar, enter a research question, and click **Plan and generate report**.
+=======
+If `py` is not recognized, try `python` instead. Your browser should open the local app. Paste your Gemini API key in the sidebar, enter a research question, and click **Plan and generate report**.
+>>>>>>> cfdf22701627b4e8c3b1471d33990af2c946af8a
 
 ## Run on macOS/Linux
 
